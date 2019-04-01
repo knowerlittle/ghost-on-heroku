@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a9ac38-b36b-44cf-8aec-84f06f52eda1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/content/themes/vanuz/partials/footer.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/vanuz/partials/footer.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/vanuz/partials/share-links.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/vanuz/partials/share-links.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/themes/vanuz/partials/social-links.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/vanuz/partials/social-links.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,18 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/create-config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/adapters/storage/s3/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,18 +61,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/social-links.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/custom-links.hbs">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/themes/vanuz/default.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -101,6 +96,7 @@
       <find>Bucket</find>
       <find>Newsletter</find>
       <find>subscription</find>
+      <find>custom-link</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,8 +108,8 @@
         <option value="$PROJECT_DIR$/content/themes/vanuz/partials/copyright.hbs" />
         <option value="$PROJECT_DIR$/content/themes/vanuz/post.hbs" />
         <option value="$PROJECT_DIR$/content/themes/vanuz/partials/share-links.hbs" />
-        <option value="$PROJECT_DIR$/content/themes/vanuz/partials/social-links.hbs" />
         <option value="$PROJECT_DIR$/content/themes/vanuz/partials/footer.hbs" />
+        <option value="$PROJECT_DIR$/content/themes/vanuz/partials/social-links.hbs" />
       </list>
     </option>
   </component>
@@ -216,15 +212,16 @@
       <option name="presentableId" value="Default" />
       <updated>1554096951585</updated>
       <workItem from="1554096954426" duration="509000" />
-      <workItem from="1554098712349" duration="3624000" />
+      <workItem from="1554098712349" duration="3888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4133000" />
+    <option name="totallyTimeSpent" value="4397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17781796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -351,15 +348,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/social-links.hbs">
+    <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/custom-links.hbs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/vanuz/default.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="294">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/custom-links.hbs">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/social-links.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
