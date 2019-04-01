@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/social-links.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+              <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -223,12 +223,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554096951585</updated>
       <workItem from="1554096954426" duration="509000" />
-      <workItem from="1554098712349" duration="5514000" />
+      <workItem from="1554098712349" duration="5616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6023000" />
+    <option name="totallyTimeSpent" value="6125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="973" extended-state="6" />
@@ -419,7 +419,7 @@
     <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/social-links.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
         </state>
       </provider>
     </entry>
