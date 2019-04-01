@@ -1,0 +1,28 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+<div class="inner-wrap-container">
+    {{#post}}
+    <div class="inner-wrap animate" data-animation="fade-in">
+        <div class="single-article">
+            {{#if feature_image}}
+            <div class="featured-image" style="background-image:url({{feature_image}});"></div>
+            {{/if}}
+            <div class="post-content m-auto">
+                <div class="tag-wrap">
+                    {{#if tags}}
+                    {{tags separator=""}}
+                    {{/if}}
+                    <span class="reading-time">{{reading_time minute=(t "1 min read") minutes=(t "% min read")}}</span> <span class="date">{{date format="MMM DD, YYYY"}}</span>
+                </div>
+                <h1 class="title">{{title}}</h1>
+                <div class="content">{{content}}</div>
+                {{> share-links}}
+                {{> about-author}}
+                <hr class="small">
+                {{> prev-next}}
+            </div>
+        </div>
+    </div>
+    {{> disqus-comment}}
+    {{/post}}       
+</div>

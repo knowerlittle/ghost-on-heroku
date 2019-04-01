@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+	<head>
+		{{! Document Settings }}
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		{{! Page Meta }}
+		<title>{{meta_title}}</title>
+		{{! Styles'n'Scripts }}
+		<style id="bundle-css">
+            {{> bundle-css}}
+        </style>
+		{{! Ghost outputs important style and meta data with this tag }}
+		{{ghost_head}}
+	</head>
+	<body class="{{body_class}}">
+		{{! insert header partial}}
+		{{> header}}
+        <div class="main-content-area">
+        {{{body}}}
+        {{! insert footer partial}}
+        {{> footer}}
+        </div>
+		{{! scripts}}
+		<script>var searchApi = "{{@site.url}}/ghost/api/v2/content/posts/?key={{>api-key}}&limit=all&fields=id,title,url,published_at&formats=plaintext";</script>
+        <script>
+            var nextPage = '{{pagination.next}}';
+            var totalPages = '{{pagination.pages}}';
+        </script>
+		<script src="{{asset "js/app.bundle.min.js"}}"></script>
+        {{ghost_foot}}
+	</body>
+</html>

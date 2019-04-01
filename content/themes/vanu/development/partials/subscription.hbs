@@ -1,0 +1,12 @@
+<div class="subscription-wrap text-center">
+    <h2 class="heading">{{t "Subscribe to our newsletter"}}</h2>
+    <div class="content">
+        <p>{{t "Stay up to date! Get all the latest & greatest posts delivered straight to your inbox once in a month."}}</p>
+    </div>
+    {{subscribe_form
+        form_class="subscription-form"
+        input_class="form-control"
+        button_class="submit-btn btn btn-secondary"
+        placeholder=(t "yourmail@example.com")
+    }}
+</div>

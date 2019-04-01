@@ -1,0 +1,17 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+<div class="inner-wrap-container">
+    <div class="inner-wrap animate" data-animation="fade-in">
+        {{#post}}
+        <div class="single-article">
+            {{#if feature_image}}
+            <div class="featured-image" style="background-image:url({{feature_image}});"></div>
+            {{/if}}
+            <div class="post-content m-auto">
+                <h1 class="title">{{title}}</h1>
+                <div class="content">{{content}}</div>
+            </div>
+        </div>
+        {{/post}}
+    </div>          
+</div>

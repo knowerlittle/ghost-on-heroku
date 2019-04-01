@@ -1,0 +1,260 @@
+body {
+    font-family: $sans-serif;
+    background-color: $bg-color;
+    color: $text-normal;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: $text-dark;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+h1, .h1 {
+    font-size: 3rem; //44
+}
+h2, .h2 {
+    font-size: 2.25rem; //32
+}
+h3, .h3 {
+    font-size: 1.5rem; //24
+}
+h4, .h4 {
+    font-size: 1.125rem; //18
+}
+h5, .h5 {
+    font-size: 1rem; //16
+}
+h6, .h6 {
+    font-size: 0.875rem; //14
+}
+a {
+	color: $primary-color;
+	transition: (all 0.25s);
+	&:hover, &:focus {
+		text-decoration: none;
+        color: $primary-color;
+        outline: none;
+	}
+}
+svg {
+    fill: currentColor;
+}
+.btn {
+    padding: 0px 1.75rem;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    line-height: 56px;
+    font-weight: 600;
+    border: none;
+    &:focus {
+        box-shadow: none;
+    }
+    svg {
+        width: 18px;
+        height: 18px;
+    }
+}
+.btn-rounded {
+    border-radius: 60px;
+}
+.btn-lg {
+    line-height: 64px;
+    font-size: 1.25rem;
+}
+.btn-sm {
+    line-height: 48px;
+    font-size: 1rem;
+}
+
+.btn-primary, .btn-primary.disabled, .btn-primary:disabled {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    color: $white;
+    &:hover, &:not(:disabled):not(.disabled):active {
+        background-color: rgba($primary-color, 0.9);
+        border-color: rgba($primary-color, 0.9);
+    }
+    &:focus, &:not(:disabled):not(.disabled):active:focus {
+        box-shadow: none;
+        color: $white;
+    }
+}
+.btn-secondary {
+    background-color: $text-dark;
+    border-color: $text-dark;
+    color: $white;
+    &:hover, &:not(:disabled):not(.disabled):active {
+        background-color: $primary-color;
+        border-color: $primary-color;
+    }
+    &:focus, &:not(:disabled):not(.disabled):active:focus {
+        box-shadow: none;
+        color: $white;
+    }
+}
+form {
+    margin-bottom: 24px;
+}
+input[type='text'], input[type='email'], input[type='url'], textarea {
+	border: 1px solid $border-color;
+    box-shadow: none;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    padding: 0px 16px;
+	&:focus {
+		border: 1px solid $primary-color;
+		outline: none;
+		box-shadow: none;
+    }
+    &::placeholder {
+        color: $text-light;
+    }
+}
+textarea {
+    height: 120px;
+    padding: 16px;
+}
+figure {
+    margin-bottom: 2rem;
+}
+figcaption {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 8px;
+    font-family: $sans-serif;
+}
+.form-control {
+    padding: 0px 1.75rem;
+    line-height: 60px;
+    height: 60px;
+}
+.form-control-lg {
+    padding: 1rem 2rem;
+}
+blockquote {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    // font-weight: 600;
+    padding: 24px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    // border: 1px solid $border-color;
+    // border-left: 4px solid $text-light;
+    border-radius: 8px;
+    color: $text-dark;
+    background-color: $bg-color;
+    p {
+        margin-bottom: 0px !important;
+    }
+    cite {
+        // color: $color-normal;
+        font-style: normal;
+    }
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    overflow: auto;
+    margin-bottom: 2rem;
+}
+table, th, td {
+    border: 1px solid $border-color;
+}
+th {
+    color: $text-dark;
+}
+th, td {
+    padding: 4px 16px;
+}
+dd, dt {
+    line-height: 24px;
+}
+dl, ol, ul {
+    padding-left: 1.3rem;
+}
+.mark, mark {
+    background-color: yellow;
+}
+pre code, pre code.hljs {
+    line-height: 1.75;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+}
+iframe {
+    border: none;
+}
+hr {
+    text-align: center;
+    border: none;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    &.small {
+        margin-top: 0;
+        margin-bottom: 2.5rem;
+    }
+    &:before {
+        content: ". . . . .";
+        font-size: 2rem;
+        display: block;
+        line-height: 4px;
+        color: $text-light;
+    }
+}
+.select-wrap {
+    display: inline-block;
+    position: relative;
+    font-size: 0.875rem;
+    label {
+        margin-right: 8px;
+    }
+    .select-dropdown {
+        border: none;
+        border-radius: 4px;
+        appearance: none;
+        padding: 8px 32px 8px 12px;
+        background-color: $white;
+        box-shadow: 0px 2px 4px $shadow-color;
+    }
+    svg {
+        position: absolute;
+        right: 12px;
+        top: calc(50% - 6px);
+        width: 12px;
+        height: 12px;
+        pointer-events: none;
+    }
+}
+
+.animate {
+    opacity: 0;
+    &.visible {
+        opacity: 1;
+    }
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+    // animation-fill-mode: both;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

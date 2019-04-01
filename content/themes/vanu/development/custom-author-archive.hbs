@@ -1,0 +1,58 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+<div class="inner-wrap-container">
+    {{#post}}
+    <h1 class="page-title text-center h2">{{title}}</h1>
+    {{/post}}
+    <div class="row">
+        <div class="col-md-12">
+            <div class="sort-container">
+                <div class="select-wrap">
+                <label for="sortby" >{{t "Sort by"}}: </label>
+                    <select id="sortby" name="sortby" class="select-dropdown">
+                        <option value="post-desc">{{t "Post Count: descending"}}</option>
+                        <option value="post-asc">{{t "Post Count: ascending"}}</option>
+                        <option value="alpha-asc">{{t "Author Name: A to Z"}}</option>
+                        <option value="alpha-desc">{{t "Author Name: Z to A"}}</option>
+                    </select>
+                    {{> icons/arrow-down}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="sortable-wrap">
+        {{#get "authors" limit="all" include="count.posts" order="count.posts desc"}}
+            {{#foreach authors}}
+            <div class="col-md-6 card-wrap animate" data-animation="fade-in" data-name="{{name}}" data-count="{{count.posts}}">
+                <div class="about-author author-card text-center">
+                    {{#if profile_image}}
+                        <a href="{{url}}"><img src="{{profile_image}}" alt="Author image" class="avatar"></a>
+                    {{else}}
+                        <a href="{{url}}"><div class="avatar no-image ml-auto mr-auto">{{> icons/user}}</div></a>
+                    {{/if}}
+                    <h3 class="name h4"><a href="{{url}}">{{name}}</a></h3>
+                    <div class="post-count">{{t "Total"}} {{plural count.posts empty=(t "0 Post") singular=(t "1 Post") plural=(t "% Posts")}}</div>
+                    <ul class="meta-info">
+                        {{#if twitter}}
+                        <li><a href="{{twitter_url}}" target="_blank">{{> icons/twitter}}</a></li>
+                        {{/if}}
+                        {{#if facebook}}
+                        <li><a href="{{facebook_url}}" target="_blank">{{> icons/facebook}}</a></li>
+                        {{/if}}
+                        {{#if website}}
+                        <li><a href="{{website}}" target="_blank">{{> icons/link}}</a></li>
+                        {{/if}}
+                        {{#if location}}
+                        <li class="location">{{> icons/location}}{{location}}</li>
+                        {{/if}}
+                    </ul>
+                    {{#if bio}}
+                    <div class="bio">{{bio}}</div>
+                    {{/if}}
+                    <div class="permalink"><a href="{{url}}">{{t "Total"}} {{plural count.posts empty=(t "0 Post") singular=(t "1 Post") plural=(t "% Posts")}} {{t "by"}} {{name}}</a></div>
+                </div>
+            </div>
+            {{/foreach}}
+        {{/get}}
+    </div>            
+</div>

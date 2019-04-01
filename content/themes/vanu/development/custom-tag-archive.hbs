@@ -1,0 +1,42 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+<div class="inner-wrap-container">
+    {{#post}}
+    <h1 class="page-title text-center h2">{{title}}</h1>
+    {{/post}}
+    <div class="row">
+        <div class="col-md-12">
+            <div class="sort-container">
+                <div class="select-wrap">
+                <label for="sortby" >Sort by: </label>
+                    <select id="sortby" name="sortby" class="select-dropdown">
+                        <option value="post-desc">{{t "Post Count: descending"}}</option>
+                        <option value="post-asc">{{t "Post Count: ascending"}}</option>
+                        <option value="alpha-asc">{{t "Tag Name: A to Z"}}</option>
+                        <option value="alpha-desc">{{t "Tag Name: Z to A"}}</option>
+                    </select>
+                    {{> icons/arrow-down}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="sortable-wrap">
+        {{#get "tags" limit="all" include="count.posts" order="count.posts desc"}}
+            {{#foreach tags}}
+            <div class="col-md-4 col-sm-6 card-wrap animate" data-animation="fade-in" data-name="{{name}}" data-count="{{count.posts}}">
+                <div class="tag-card text-center{{^if feature_image}} no-image{{/if}}">
+                    {{#if feature_image}}
+                    <a href="{{url}}">
+                        <div class="tag-image" style="background-image:url({{feature_image}});"></div>
+                    </a>
+                    {{/if}}
+                    <div class="tag-info">
+                        <h2 class="tag-name h3"><a href="{{url}}">{{name}}</a></h2>
+                        <div class="post-count">{{plural count.posts empty=(t "0 Post") singular=(t "1 Post") plural=(t "% Posts")}}</div>
+                    </div>
+                </div>
+            </div>
+            {{/foreach}}
+        {{/get}}
+    </div>            
+</div>

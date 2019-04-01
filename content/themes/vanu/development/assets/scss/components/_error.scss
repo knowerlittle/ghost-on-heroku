@@ -1,0 +1,23 @@
+.error-wrap {
+    margin: 0 auto;
+    padding: 80px 30px;
+    max-width: 760px;
+    .error-code {
+        font-size: 5rem;
+        line-height: 1.2;
+        font-weight: 700;
+        background-color: $text-dark;
+        color: $white;
+        padding: 0px 24px;
+        border-radius: 8px;
+        margin-bottom: 32px;
+        display: inline-flex;
+    }
+    .error-message {
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+    .message-manual {
+        margin-bottom: 32px;
+    }
+}

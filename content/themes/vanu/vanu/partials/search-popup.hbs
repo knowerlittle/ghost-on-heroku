@@ -1,0 +1,17 @@
+<div class="search-popup" {{#if @site.cover_image}}style="background-image: url({{@site.cover_image}});"{{/if}}>
+	<div class="close-button">
+		{{> icons/close}}
+	</div>
+	<div class="container popup-inner">
+		<div class="row">
+			<div class="col-sm-12">
+				<form id="search-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="{{t "Type to search"}}" id="search-input" aria-label="Search">
+                    </div>
+				</form>
+				<div id="search-results"></div>
+			</div>
+		</div>
+	</div>
+</div>

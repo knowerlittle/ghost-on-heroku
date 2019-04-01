@@ -1,0 +1,22 @@
+<div class="prev-next-wrap">
+    <div class="row">
+        {{#prev_post}}
+        <div class="col-md-6 post-wrap">
+            <div class="content-wrap">
+                <a href="{{url}}" class="nav-text">{{t "Previous post"}}</a>
+                <h2 class="title h4"><a href="{{url}}">{{title}}</a></h2>
+                <time class="date" datetime="{{date format="YYYY-MM-DD"}}" title="{{date format="DD MMMM, YYYY"}}">{{date format="MMMM DD, YYYY"}}</time>
+            </div>
+        </div>
+        {{/prev_post}}
+        {{#next_post}}
+        <div class="col-md-6 post-wrap">
+            <div class="content-wrap">
+                <a href="{{url}}" class="nav-text">{{t "Next post"}}</a>
+                <h2 class="title h4"><a href="{{url}}">{{title}}</a></h2>
+                <time class="date" datetime="{{date format="YYYY-MM-DD"}}" title="{{date format="DD MMMM, YYYY"}}">{{date format="MMMM DD, YYYY"}}</time>
+            </div>
+        </div>
+        {{/next_post}}
+    </div>
+</div>

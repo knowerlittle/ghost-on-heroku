@@ -1,0 +1,36 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+<div class="post-list-wrap">
+    {{#author}}
+    <div class="cover-wrap animate{{#if cover_image}} has-bg{{/if}}"{{#if cover_image}} style="background-image: url({{cover_image}});"{{/if}} data-animation="fade-in">
+        <div class="about-author cover-author text-center">
+            {{#if profile_image}}
+                <img src="{{profile_image}}" alt="Author image" class="avatar">
+            {{else}}
+                <div class="avatar no-image ml-auto mr-auto">{{> icons/user}}</div>
+            {{/if}}
+            <h1 class="name h3">{{name}}</h1>
+            <div class="post-count">{{t "Total"}} {{plural ../pagination.total empty=(t "0 Post") singular=(t "1 Post") plural=(t "% Posts")}}</div>
+            <ul class="meta-info">
+                {{#if twitter}}
+                <li><a href="{{twitter_url}}" target="_blank">{{> icons/twitter}}</a></li>
+                {{/if}}
+                {{#if facebook}}
+                <li><a href="{{facebook_url}}" target="_blank">{{> icons/facebook}}</a></li>
+                {{/if}}
+                {{#if website}}
+                <li><a href="{{website}}" target="_blank">{{> icons/link}}</a></li>
+                {{/if}}
+                {{#if location}}
+                <li class="location">{{> icons/location}}{{location}}</li>
+                {{/if}}
+            </ul>
+            {{#if bio}}
+            <div class="bio">{{bio}}</div>
+            {{/if}}
+        </div>
+    </div>
+    {{/author}}
+    {{> loop}}
+</div>
+{{pagination}}

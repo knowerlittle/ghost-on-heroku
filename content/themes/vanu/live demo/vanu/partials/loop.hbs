@@ -1,0 +1,32 @@
+{{#foreach posts}}
+<article class="post-wrap animate d-flex{{^if feature_image}} no-image{{/if}}" data-animation="fade-in">
+    {{#if feature_image}}
+    <a href="{{url}}" class="featured-image-wrap">
+        <div class="featured-image" style="background-image:url({{feature_image}})"></div>
+    </a>
+    {{/if}}
+    <div class="post-info">
+        {{#if featured}}
+        <span class="featured-label">{{> icons/star}}{{t "featured"}}</span>
+        {{/if}}
+        {{#primary_tag}}
+        <a href="{{url}}" class="tag d-inline-flex">{{name}}</a>
+        {{/primary_tag}}
+        <span class="reading-time">{{reading_time minute=(t "1 min read") minutes=(t "% min read")}}</span> <span class="date">{{date format="MMM DD, YYYY"}}</span>
+        <h2 class="title"><a href="{{url}}">{{title}}</a></h2>
+        <div class="author d-flex flex-row align-items-center">
+            {{#primary_author}}
+            <a href="{{url}}">
+                {{#if profile_image}}
+                <img src="{{profile_image}}" alt="avatar" class="avatar">
+                {{else}}
+                    <div class="avatar no-image">{{> icons/user}}</div>
+                {{/if}}
+            </a>
+            <div class="author-inner">
+                <span class="name"><a href="{{url}}">{{name}}</a></span>{{/primary_author}} {{#has author="count:>1"}}{{t "and others"}}{{/has}}
+            </div>
+        </div>
+    </div>
+</article>
+{{/foreach}}
