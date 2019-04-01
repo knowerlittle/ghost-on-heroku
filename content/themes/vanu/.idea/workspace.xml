@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc173a03-5663-4904-89e6-05e3727dfa4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vanuz/partials/api-key.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../vanuz/partials/api-key.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -62,12 +64,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554145789645</updated>
-      <workItem from="1554145790973" duration="362000" />
+      <workItem from="1554145790973" duration="568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362000" />
+    <option name="totallyTimeSpent" value="568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="973" extended-state="6" />
