@@ -2,7 +2,8 @@
     <div class="logo-wrap">
         {{#if @site.logo}}
             <a class="image-logo" href="{{@site.url}}"><img src="{{@site.logo}}" alt="{{@site.title}}"></a>
-        {{else}}
+        {{/if}}
+        {{#if @site.title}}
             <a class="text-logo" href="{{@site.url}}">{{@site.title}}</a>
         {{/if}}
         {{#if @site.description}}
