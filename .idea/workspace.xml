@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87a9ac38-b36b-44cf-8aec-84f06f52eda1" name="Default Changelist" comment="" />
+    <list default="true" id="87a9ac38-b36b-44cf-8aec-84f06f52eda1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/content/themes/vanuz/partials/copyright.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/vanuz/partials/copyright.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/vanuz/partials/footer.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/vanuz/partials/footer.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/vanuz/post.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/vanuz/post.hbs" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.development.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,36 +43,46 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/adapters/storage/s3/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="87" column="77" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="78" />
+            <state relative-caret-position="318">
+              <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/init-deployment">
+        <entry file="file://$PROJECT_DIR$/content/themes/vanuz/page.hbs">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/wait-for-db">
+        <entry file="file://$PROJECT_DIR$/content/themes/vanuz/custom-tag-archive.hbs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/copyright.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            <state relative-caret-position="21">
+              <caret line="1" column="107" selection-start-line="1" selection-start-column="107" selection-end-line="1" selection-end-column="107" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/ghost-storage-adapter-s3/index.js">
+        <entry file="file://$PROJECT_DIR$/content/themes/vanuz/post.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="109" column="92" selection-start-line="109" selection-start-column="92" selection-end-line="109" selection-end-column="92" />
+            <state relative-caret-position="441">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/themes/vanuz/index.hbs">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -89,20 +94,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/common/env-values.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Bucket</find>
+      <find>Newsletter</find>
+      <find>subscription</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/content/themes/vanuz/post.hbs" />
+        <option value="$PROJECT_DIR$/content/themes/vanuz/partials/footer.hbs" />
+        <option value="$PROJECT_DIR$/content/themes/vanuz/partials/copyright.hbs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
@@ -143,27 +154,6 @@
               <item name="ghost-on-heroku" type="b2602c69:ProjectViewProjectNode" />
               <item name="ghost-on-heroku" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="adapters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ghost-on-heroku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ghost-on-heroku" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="adapters" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ghost-on-heroku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ghost-on-heroku" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="adapters" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="s3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ghost-on-heroku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ghost-on-heroku" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -177,15 +167,15 @@
               <item name="ghost-on-heroku" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="vanu" type="462c0819:PsiDirectoryNode" />
+              <item name="vanuz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ghost-on-heroku" type="b2602c69:ProjectViewProjectNode" />
               <item name="ghost-on-heroku" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="vanu" type="462c0819:PsiDirectoryNode" />
-              <item name="vanu" type="462c0819:PsiDirectoryNode" />
+              <item name="vanuz" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,22 +214,23 @@
       <option name="presentableId" value="Default" />
       <updated>1554096951585</updated>
       <workItem from="1554096954426" duration="509000" />
-      <workItem from="1554098712349" duration="2632000" />
+      <workItem from="1554098712349" duration="3134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3141000" />
+    <option name="totallyTimeSpent" value="3643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -324,8 +315,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/adapters/storage/s3/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="87" column="77" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="78" />
+        <state relative-caret-position="318">
+          <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/vanuz/post.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/vanuz/index.hbs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/vanuz/page.hbs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/vanuz/custom-tag-archive.hbs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/copyright.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="107" selection-start-line="1" selection-start-column="107" selection-end-line="1" selection-end-column="107" />
         </state>
       </provider>
     </entry>
