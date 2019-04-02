@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/copyright.hbs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/themes/vanuz/default.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="241">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -29,38 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/footer.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/themes/vanuz/default.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="25" column="105" selection-start-line="25" selection-start-column="105" selection-end-line="25" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/api-key.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/themes/vanuz/assets/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1229">
-              <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -98,13 +68,13 @@
         <option value="$PROJECT_DIR$/content/themes/vanuz/partials/social-links.hbs" />
         <option value="$PROJECT_DIR$/content/themes/vanuz/partials/copyright.hbs" />
         <option value="$PROJECT_DIR$/content/themes/vanuz/locales/en.json" />
-        <option value="$PROJECT_DIR$/content/themes/vanuz/partials/footer.hbs" />
         <option value="$PROJECT_DIR$/content/themes/vanuz/partials/api-key.hbs" />
+        <option value="$PROJECT_DIR$/content/themes/vanuz/partials/footer.hbs" />
         <option value="$PROJECT_DIR$/content/themes/vanuz/default.hbs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="102" />
     <option name="width" value="1865" />
     <option name="height" value="973" />
@@ -243,7 +213,8 @@
       <updated>1554096951585</updated>
       <workItem from="1554096954426" duration="509000" />
       <workItem from="1554098712349" duration="5750000" />
-      <workItem from="1554147063832" duration="684000" />
+      <workItem from="1554147063832" duration="1032000" />
+      <workItem from="1554217241620" duration="706000" />
     </task>
     <task id="LOCAL-00001" summary="update api key">
       <created>1554146217179</created>
@@ -256,13 +227,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7759000" />
+    <option name="totallyTimeSpent" value="8813000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="102" width="1865" height="973" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="974" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19577007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19529837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -274,7 +245,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32951945" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -418,13 +389,6 @@
     <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/navigation.hbs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/footer.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/vanuz/index.hbs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -462,10 +426,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/vanuz/partials/footer.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/vanuz/default.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="25" column="105" selection-start-line="25" selection-start-column="105" selection-end-line="25" selection-end-column="105" />
+        <state relative-caret-position="241">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
